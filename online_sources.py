@@ -55,7 +55,7 @@ def gnews_verify(query):
     try:
         clean = clean_query(query)
 
-        API_KEY = "082fc7ce2050690282adc285e57bf445"
+        API_KEY = "YOUR API KEY"
         url = f"https://gnews.io/api/v4/search?q={clean}&token={API_KEY}"
 
         data = requests.get(url).json()
@@ -76,7 +76,7 @@ def google_factcheck(query):
     try:
         clean = clean_query(query)
 
-        API_KEY = "AIzaSyAaNyl-QLQdgztBa-fxkq3JVp31PFaI0MQ"
+        API_KEY = "YOUR API KEY"
         API_URL = "https://factchecktools.googleapis.com/v1alpha1/claims:search"
 
         params = {
