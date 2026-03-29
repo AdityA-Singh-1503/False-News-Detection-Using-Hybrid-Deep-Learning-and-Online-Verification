@@ -51,7 +51,7 @@ def gnews_verify(query):
 # 3. GOOGLE FACT CHECK API
 # -------------------------
 def google_factcheck(query):
-    API_KEY = "AIzaSyAaNyl-QLQdgztBa-fxkq3JVp31PFaI0MQ"  # free, no card required
+    API_KEY = "YOUR API KEY"  # free, no card required
     API_URL = "https://factchecktools.googleapis.com/v1alpha1/claims:search"
 
     params = {
